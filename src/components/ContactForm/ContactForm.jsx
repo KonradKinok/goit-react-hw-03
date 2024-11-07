@@ -45,7 +45,6 @@ export const ContactForm = ({ contacts, addContact }) => {
     return (
         <Formik
             initialValues={{ name: "", number: "" }}
-            // enableReinitialize // Aby Formik automatycznie przełączał się przy zmianie stanu
             validationSchema={validationSchema} // Przekazanie schematu walidacji
             onSubmit={handleFormikSubmit}
         >

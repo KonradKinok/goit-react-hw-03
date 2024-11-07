@@ -1,9 +1,9 @@
-import PropTypes from "prop-types";
-import scss from "./Phonebook.module.scss";
-import { ContactForm } from "../ContactForm/ContactForm";
-import Filter from "../Filter/Filter";
-import { ContactList } from "../ContactList/ContactList";
 import { useState, useEffect } from "react";
+import PropTypes from "prop-types";
+import { ContactForm } from "../ContactForm/ContactForm";
+import { Filter } from "../Filter/Filter";
+import { ContactList } from "../ContactList/ContactList";
+import scss from "./Phonebook.module.scss";
 
 const LOCAL_STORAGE_KEY = "Phonebook-local-storage";
 

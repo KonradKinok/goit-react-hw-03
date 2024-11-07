@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
-import scss from "./SeparateContact.module.scss"
 import { FaUser } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
+import scss from "./SeparateContact.module.scss"
+
 export const SeparateContact = ({ contact, onDelete }) => {
 
     // Funkcja obsługująca usunięcie kontaktu
@@ -11,8 +12,6 @@ export const SeparateContact = ({ contact, onDelete }) => {
         if (isConfirmed) {
             onDelete(contact.id);
         }
-
-
     };
 
     return (
