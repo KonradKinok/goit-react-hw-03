@@ -85,7 +85,7 @@ export const ContactForm = ({ contacts, addContact }) => {
                             onBlur={handleBlur}
                             value={values.number}
                             placeholder="567-215-453"
-                            title="Phone number must be digits with dashes. Example: 567-21-45"
+                            title="Phone number must be digits with dashes. Example: 567-321-345"
                         />
                         {errors.number && touched.number && (
                             <div className={scss["input-error"]}>{errors.number}</div>
