@@ -1,0 +1,52 @@
+.container-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.container-data-contact {
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.icon-data-contact {
+    margin-right: 10px;
+}
+
+.button-delete-contact {
+    margin: 10px;
+    padding: 5px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #4b1207 0%, #000000 51%, #FF512F 100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-delete-contact:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.button-delete-contact:active {
+    transform: scale(0.95);
+}

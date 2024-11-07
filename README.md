@@ -1,3 +1,11 @@
+# goit-react-hw-03
+
+Link do repozytorium:
+https://github.com/KonradKinok/goit-react-hw-03
+
+Link do Vercel:
+https://goit-react-hw-02-three-indol.vercel.app/
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
